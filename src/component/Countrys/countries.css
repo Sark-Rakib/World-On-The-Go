@@ -4,3 +4,34 @@
     gap: 20px;
     padding: 20px;
 }
+
+.visited-flags img{
+    width: 50px;
+    height: 30px;
+    margin: 5px;
+}
+
+.visited-flags{
+    text-align: center;
+}
+
+.upper-part{
+    text-align: center;
+}
+
+.total-country{
+    background-image:linear-gradient(to right, gold, red, purple);
+    background-clip: text;
+    color: transparent;
+}
+
+
+@media screen  and (max-width: 768px) {
+    .countries{
+        grid-template-columns: repeat(1, 1fr);
+       justify-content: center;
+    }
+    .visited-flags{
+        text-align: center;
+    }
+}

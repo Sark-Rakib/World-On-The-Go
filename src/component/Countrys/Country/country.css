@@ -8,3 +8,8 @@
 .country-visited{
     background-color: aquamarine;
 }
+
+.buttons{
+    display: flex;
+    justify-content: space-between;
+}
